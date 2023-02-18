@@ -1,0 +1,29 @@
+{
+  "name": "php-starter-site",
+  "version": "0.0.1",
+  "description": "PHP starter site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "php",
+    "scss"
+  ],
+  "author": "Mark J. Handy",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.2.3",
+    "grunt": "^1.6.1",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-sass": "^2.0.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-contrib-watch": "^1.1.0",
+    "load-grunt-tasks": "^5.1.0",
+    "sass": "^1.58.3"
+  }
+}
