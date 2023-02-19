@@ -10,7 +10,9 @@
 <body>
 	<?php include("components/header/header.php"); ?>
 	<main id="main">
-		<h1>Hello World</h1>
+		<div class="container">
+			<h1>Hello World</h1>
+		</div>		
 	</main>
 	<?php include("components/footer/footer.php"); ?>
 </body>
