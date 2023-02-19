@@ -20,7 +20,7 @@ module.exports = function (grunt) {
         force: true
       },
       css: [
-        '<%= info.distDir %>css/*.css'
+        '<%= info.distDir %>css/*.*'
       ],
       js:[
         '<%= info.distDir %>*.js'

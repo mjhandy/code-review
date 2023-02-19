@@ -1,7 +1,5 @@
 /// Colours
-/// 
 $black: #000;
-
 $white: #fff;
 $blue: #1057A2;
 $red: red;
@@ -19,8 +17,7 @@ $grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 144
 /// @type Container
 $container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1400px, xxl: 1440px);
 
-// Typography
-
-// $font-size-base: 1rem;
+/// Typography
+/// $font-size-base: 1rem;
 $font-family-sans-serif: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
 $line-height-base: 1.5;

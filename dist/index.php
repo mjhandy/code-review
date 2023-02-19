@@ -7,7 +7,9 @@
 	<?php
 		
 	?>
-	<main id="main"></main>
+	<main id="main">
+		<h1>Hello World</h1>
+	</main>
 	<?php
 		
 	?>	
