@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Website</title>
+<meta charset="utf-8">
+  <title>Site Template</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-	<?php
-		
-	?>
+	<?php include("components/header/header.php"); ?>
 	<main id="main">
 		<h1>Hello World</h1>
 	</main>
-	<?php
-		
-	?>	
+	<?php include("components/footer/footer.php"); ?>
 </body>
 </html>

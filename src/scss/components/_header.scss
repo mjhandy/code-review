@@ -1,0 +1,20 @@
+/// header scss
+/// 
+/// 
+
+/// skip block - WCAG 2.4.1 - by pass block 
+a{
+  &#skipToMain{
+    display: block;
+    padding: 20px;
+    left: 50%;
+    position: absolute;
+    transform: translateY(-100%);
+    &:focus{
+      transform: translateY(0%);
+    }    
+  }
+}
+#header{
+  height: 50px;
+}
