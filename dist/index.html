@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  
+  <script>
+
+    const urlParams = new URL("https://www.test.com/page/test/?test1=t189gk4&mykey=j318gn419&test3=12345").searchParams;
+		const url = "https://www.test.com/getKeys/";
+		const myKey = urlParams.get('mykey');
+    const t1 = urlParams.get('test1');
+    const t3 = urlParams.get('test3');
+
+		if (myKey) {
+			console.log(myKey)
+			console.log(true)
+			const options = {
+				method: "POST",
+				headers: {
+					"Content-Type": "application/json"
+				},
+   		 	body: JSON.stringify(myKey)
+  		};
+			fetch("https://www.test.com/getKeys/", options)
+				.then(response => response.json())
+				.then(data => console.log(data))
+				.catch(error => console.error(error));
+		} else {	
+      console.log(false)
+      console.log(t1, t3);
+
+		}
+
+	</script>
+  <script>
+  var el = document.getElementById('abc'); 
+  
+  if (el != null) {
+		console.log(true);
+    var title = document.getElementById("abc").title;
+    alert(title);
+  } else {
+		console.log(false);    
+    var elements = document.querySelectorAll("myclass").length;
+    console.log(elements)
+    for (var i = 0; i < elements.length; i++) {
+      var title = elements[i].title;
+      console.log(title);
+    }
+
+  }
+  </script>
+</head>
+
+<body>
+  
+  <p id="abc" title="title" class="myclass">
+    myclass 1
+  </p>
+  <p title="abc" class="myclass">
+    myclass 2
+  </p>
+  <p title="abc" class="myclass">
+    myclass 2
+  </p>  
+</body>
+
+</html>
